@@ -11,6 +11,7 @@ import { Container } from './styles';
 
 interface InputProps {
   name: string;
+  placeholder: string;
 }
 
 const Input = ({ name, ...rest }: InputProps) => {
